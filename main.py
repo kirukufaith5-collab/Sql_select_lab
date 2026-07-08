@@ -44,9 +44,9 @@ df_executive = pd.read_sql_query(query_5, conn)
 
 
 # STEP 6
-# Replace None with your code
-query_6="SELECT LENGTH(LastName AS name_length FROM employees;)"
-df_name_length = pd.read_sql_query(query_6,conn)
+# Find the length of the last name for all employees
+query_6 = "SELECT LENGTH(lastName) AS name_length FROM employees;"
+df_name_length = pd.read_sql_query(query_6, conn)
 
 # STEP 7
 # Replace None with your code
